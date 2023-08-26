@@ -20,9 +20,11 @@
  function branch(len) {
     line(0, 0, 0, -len);
     translate(0, -len);
-    rotate(angle);
+    
     if(len > 4) {
+        rotate(angle);
         branch(len * 0.67);
+        rotate(angle);
     }
     // line(0, 0, 0, -len * 0.67); 
 }
