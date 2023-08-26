@@ -24,7 +24,8 @@
     if(len > 4) {
         rotate(angle);
         branch(len * 0.67);
-        rotate(angle);
+        rotate(-angle);
+        branch(len * 0.67);
     }
     // line(0, 0, 0, -len * 0.67); 
 }
