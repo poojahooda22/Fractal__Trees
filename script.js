@@ -21,6 +21,7 @@
     line(0, 0, 0, -len);
     translate(0, -len);
     
+    //recursion
     if(len > 4) {
         rotate(angle);
         branch(len * 0.67);
